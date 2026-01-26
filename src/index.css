@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+/* System font stack: modern, clean, professional */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+/* Sprite animation */
+@keyframes sprite-walk {
+  0% { background-position: 0 0; }
+  100% { background-position: -640px 0; }
+}
+
+.sprite-animation {
+  display: inline-block;
+  width: 160px;
+  height: 160px;
+  background-size: 640px 160px;
+  animation: sprite-walk 1s steps(4, end) infinite;
+}
+
+/* Subtle scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f9fafb;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4e4a4a;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #9ca3af;
+}
