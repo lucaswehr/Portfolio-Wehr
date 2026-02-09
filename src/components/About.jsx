@@ -2,7 +2,7 @@ import { portfolioData } from '../data/portfolio';
 
 export default function About() {
   return (
-    <section id="about" className="py-24 bg-gray-50 border-t border-gray-200">
+    <section id="about" className="py-24 border-t border-gray-200">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-gray-900 mb-16">About</h2>
         

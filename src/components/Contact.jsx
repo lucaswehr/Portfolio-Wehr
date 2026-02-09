@@ -22,7 +22,7 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-white border-t border-gray-200">
+    <section id="contact" className="py-24 border-t border-gray-200">
       <div className="max-w-4xl mx-auto px-6">
         <h2 className="text-4xl font-bold text-gray-900 mb-6">Get in Touch</h2>
         <p className="text-gray-700 mb-12 max-w-2xl">Reach out for opportunities or just to say hello.</p>
@@ -37,7 +37,7 @@ export default function Contact() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-2.5 border border-gray-300 text-gray-900 placeholder-gray-500 focus:outline-none focus:border-gray-900 focus:ring-1 focus:ring-gray-900 transition"
+                  className=" ring-1 w-full px-4 py-2.5 border border-gray-1000 text-gray-900 placeholder-gray-500 focus:outline-none focus:border-gray-900 focus:ring-2 focus:ring-gray-900 transition"
                   required
                 />
               </div>
@@ -49,7 +49,7 @@ export default function Contact() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-2.5 border border-gray-300 text-gray-900 placeholder-gray-500 focus:outline-none focus:border-gray-900 focus:ring-1 focus:ring-gray-900 transition"
+                  className="ring-1 w-full px-4 py-2.5 border border-gray-1000 text-gray-900 placeholder-gray-500 focus:outline-none focus:border-gray-900 focus:ring-2 focus:ring-gray-900 transition"
                   required
                 />
               </div>
@@ -61,7 +61,7 @@ export default function Contact() {
                   rows="5"
                   value={formData.message}
                   onChange={handleChange}
-                  className="w-full px-4 py-2.5 border border-gray-300 text-gray-900 placeholder-gray-500 focus:outline-none focus:border-gray-900 focus:ring-1 focus:ring-gray-900 transition resize-none"
+                  className="ring-1 w-full px-4 py-2.5 border border-gray-1000 text-gray-900 placeholder-gray-500 focus:outline-none focus:border-gray-900 focus:ring-2 focus:ring-gray-900 transition resize-none"
                   required
                 />
               </div>

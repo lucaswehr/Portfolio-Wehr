@@ -22,7 +22,7 @@ export const portfolioData = {
       id: 1,
       title: "Interactive Event Map",
       description: "Built a React-based map interface integrating the Ticketmaster API to search and filter live events by city. Implemented MySQL database for caching event data, improving lookup performance by 40%. Added community event creation features, increasing visibility of niche local events by 45%. Currently deployed on Heroku.",
-      technologies: ["React", "JavaScript", "MySQL", "Ticketmaster API", "Heroku"],
+      technologies: ["React", "JavaScript", "MySQL", "Ticketmaster API", "Heroku", "Python"],
       link: "https://wehr-ticketmaster-event-map-6ab21ae33b7f.herokuapp.com/",
       github: "#",
       image: "🗺️"
@@ -43,8 +43,18 @@ export const portfolioData = {
       technologies: ["C++", "SFML", "Game Design", "Object-Oriented Programming"],
       link: "https://lucaswehr.itch.io/the-last-paladin",
       github: "https://github.com/lucaswehr/The-Last-Paladin",
-      image: "/images/Idle.png",
+      image: "/Portfolio-Wehr/images/Idle.png",
       isImage: true
+    },
+    {
+      id: 4,
+      title: "Home Editor",
+      description: "Created a home editor which is a Unity floor plan prototyping tool I built that lets users place walls and automatically detect rooms from the layout. The core system represents wall endpoints as a graph and walks that graph using a clockwise traversal algorithm to find closed loops, which are then reconstructed into polygonal room shapes. ",
+      technologies: ["C#", "Unity", "Object-Oriented Programming"],
+      link: "https://www.youtube.com/watch?v=cFstL_1BB7s",
+      github: "https://github.com/lucaswehr/Home-Editor",
+      image: "🏠",
+      
     },
   ],
   

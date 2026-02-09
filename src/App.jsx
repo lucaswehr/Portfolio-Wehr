@@ -11,7 +11,7 @@ import './index.css'
 
 function HomePage() {
   return (
-    <div className="bg-white text-gray-900">
+    <div className="bg-gray-50 text-gray-900">
       <Header />
       <Hero />
       <About />
@@ -25,7 +25,7 @@ function HomePage() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Portfolio-Wehr/">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/resume" element={<Resume />} />

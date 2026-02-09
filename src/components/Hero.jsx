@@ -2,7 +2,7 @@ import { portfolioData } from '../data/portfolio';
 
 export default function Hero() {
   return (
-    <section id="home" className="min-h-screen bg-white pt-32 pb-24 flex items-center">
+    <section id="home" className="min-h-screen pt-32 pb-24 flex items-center">
       <div className="max-w-3xl mx-auto px-6 w-full">
         <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6 leading-tight">
           {portfolioData.name}
