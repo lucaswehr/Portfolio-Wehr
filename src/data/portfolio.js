@@ -12,7 +12,7 @@ export const portfolioData = {
     { category: "Languages", items: ["JavaScript", "Python", "C/C++", "C#", "SQL"] },
     { category: "Frontend", items: ["React.js", "HTML/CSS", "Tailwind CSS"] },
     { category: "Backend", items: ["Flask", "Python", "REST APIs"] },
-    { category: "Databases", items: ["MySQL", "PostgreSQL", "SQLite"] },
+    { category: "Databases", items: ["MySQL", "SQLAlchemy", "SQLite"] },
     { category: "Tools & Platforms", items: ["Git", "VS Code", "Linux", "Heroku", "AWS", "Agile/Scrum"] },
     { category: "Other", items: ["API Integration", "Data Structures", "Algorithms", "Game Development (SFML, Unity)"] },
   ],
